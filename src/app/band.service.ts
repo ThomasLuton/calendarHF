@@ -19,6 +19,36 @@ export class BandService {
       name: 'Tsar',
       picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/62/45/20/624520ba-dfe2-c94a-35bb-77fc234ceb50/198588657379.jpg/600x600bb.jpg',
       url: 'https://www.youtube.com/watch?v=rsWQcVLZBm0&ab_channel=TSAR'
+    },
+    {
+      id: 3,
+      name: "Lucie Sue",
+      picture: "",
+      url: ""
+    },
+    {
+      id: 4,
+      name: "Sandrider",
+      picture: "",
+      url: ""
+    },
+    {
+      id: 5,
+      name: "White ward",
+      picture: "",
+      url: ""
+    },
+    {
+      id: 6,
+      name: "Dream theater",
+      picture: "",
+      url: ""
+    },
+    {
+      id: 7,
+      name: "Spy",
+      picture: "",
+      url: ""
     }
   ]
 

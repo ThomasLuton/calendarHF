@@ -1,4 +1,4 @@
-import { Component, computed, inject, Input, input, OnInit, Signal, signal } from '@angular/core';
+import { Component, computed, effect, inject, Input, input, OnInit, Signal, signal } from '@angular/core';
 import { BandService } from '../band.service';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { Band } from '../../band.model';
@@ -17,9 +17,17 @@ export class BandOfTheDayComponent implements OnInit {
   private readonly bandService = inject(BandService);
   band: Band | undefined = undefined;
 
-  ngOnInit(): void {
-    this.bandService.getOneBand(this.bandId()).subscribe((res) => this.band = res);
+  constructor() {
+    effect(() => {
+      this.changeBand();
+    })
   }
 
+  ngOnInit(): void {
+    this.changeBand();
+  }
 
+  changeBand(): void {
+    this.bandService.getOneBand(this.bandId()).subscribe((res) => this.band = res);
+  }
 }

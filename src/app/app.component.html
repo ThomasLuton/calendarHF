@@ -5,7 +5,9 @@
     <!-- sleep counter -->
     <app-sleep-counter></app-sleep-counter>
     <!-- card band of the day -->
-    <app-band-of-the-day [bandId]="day()"></app-band-of-the-day>
+    <app-band-of-the-day [bandId]="bandId()"></app-band-of-the-day>
     <!-- pagination -->
+    <app-pagination [currentDay]="day()" [bandId]="bandId()" (previous)="onPrevious()"
+      (next)="onNext()"></app-pagination>
   </div>
 </div>
