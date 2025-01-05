@@ -1,9 +1,12 @@
 <div class="bg-warning-subtle">
   <div class="container-xl bg-white">
     <h1 class="text-center text-danger">Calendrier de l'avent</h1>
-    <!-- widget calendar -->
-    <!-- sleep counter -->
-    <app-sleep-counter></app-sleep-counter>
+    <div class="d-flex justify-content-between">
+      <!-- widget calendar -->
+      <app-calendar class="flex-fill"></app-calendar>
+      <!-- sleep counter -->
+      <app-sleep-counter class="flex-fill"></app-sleep-counter>
+    </div>
     <!-- card band of the day -->
     <app-band-of-the-day [bandId]="bandId()"></app-band-of-the-day>
     <!-- pagination -->

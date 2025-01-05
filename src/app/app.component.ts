@@ -2,11 +2,12 @@ import { Component, computed, signal } from '@angular/core';
 import { SleepCounterComponent } from './sleep-counter/sleep-counter.component';
 import { BandOfTheDayComponent } from './band-of-the-day/band-of-the-day.component';
 import { PaginationComponent } from './pagination/pagination.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [SleepCounterComponent, BandOfTheDayComponent, PaginationComponent],
+  imports: [SleepCounterComponent, BandOfTheDayComponent, PaginationComponent, CalendarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
