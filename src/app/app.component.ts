@@ -28,4 +28,7 @@ export class AppComponent {
     this.bandId.update(() => this.bandId() + 1)
   }
 
+  onSelect(newBandId: number): void {
+    this.bandId.update(() => newBandId)
+  }
 }

@@ -1,4 +1,4 @@
-import { Component, computed, signal } from '@angular/core';
+import { Component, computed, output, signal } from '@angular/core';
 
 @Component({
   selector: 'app-calendar',
@@ -9,6 +9,7 @@ import { Component, computed, signal } from '@angular/core';
 })
 export class CalendarComponent {
 
+  select = output<number>()
   date = new Date(Date.now())
   selectMonthId = signal(this.date.getUTCMonth());
   selectedMonth = computed(() => this.convertMonth(this.selectMonthId()));
@@ -56,5 +57,11 @@ export class CalendarComponent {
     if (!this.isLast()) {
       this.selectMonthId.update(() => this.selectMonthId() + 1)
     }
+  }
+
+  onSelect(bandId: number): void {
+    this.select.emit(bandId);
+    const closeButton = document.getElementById('closeModalButton');
+    closeButton?.click()
   }
 }

@@ -3,7 +3,7 @@
     <h1 class="text-center text-danger">Calendrier de l'avent</h1>
     <div class="d-flex justify-content-between">
       <!-- widget calendar -->
-      <app-calendar class="flex-fill"></app-calendar>
+      <app-calendar class="flex-fill" (select)="onSelect($event)"></app-calendar>
       <!-- sleep counter -->
       <app-sleep-counter class="flex-fill"></app-sleep-counter>
     </div>

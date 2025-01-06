@@ -15,8 +15,8 @@
                 <table class="table text-center">
                     <tbody>
                         <tr>
-                            <td>1</td>
-                            <td>2</td>
+                            <td (click)="onSelect(1)">1</td>
+                            <td (click)="onSelect(2)">2</td>
                             <td>3</td>
                             <td>4</td>
                             <td>5</td>
@@ -63,7 +63,8 @@
                 <button class="btn btn-danger" [disabled]="isLast()" (click)="onNext()">Suivant</button>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fermer</button>
+                <button id="closeModalButton" type="button" class="btn btn-danger"
+                    data-bs-dismiss="modal">Fermer</button>
             </div>
         </div>
     </div>
