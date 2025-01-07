@@ -6,4 +6,20 @@
             <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
         </a>
     </div>
+    @if(band?.bonus){
+    <div class="mt-4">
+        <h2 class="text-center">Groupe(s) bonus</h2>
+        @for (bonus of band?.bonus; track $index) {
+        <div class="mt-4">
+            <h5>{{bonus.name}}</h5>
+            <img id="picture" [src]="bonus.picture" [alt]="bonus.name">
+            <div id="youtubeIcon">
+                <a [href]="bonus.url">
+                    <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
+                </a>
+            </div>
+        </div>
+        }
+    </div>
+    }
 </div>

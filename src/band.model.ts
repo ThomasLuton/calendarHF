@@ -3,5 +3,5 @@ export interface Band {
     name: string,
     picture: string,
     url: string,
-    bonus?: number
+    bonus?: Band[]
 }
