@@ -10,7 +10,7 @@ import { Component, computed, OnInit, signal } from '@angular/core';
 export class SleepCounterComponent implements OnInit {
 
   isCountDown = signal(true);
-  readonly startDate = new Date('June 19, 2025 14:00:00');
+  readonly startDate = new Date('June 19, 2025 00:00:00');
   now = signal(Date.now());
   remainingTime = computed(() => (this.startDate.getTime() - this.now()))
   remainingDays = computed(() => Math.floor(this.remainingTime() / 86400000))

@@ -49,6 +49,150 @@ export class BandService {
       name: "Spy",
       picture: "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/28/d6/af28d690-d562-a18b-7e16-b74ab2b6e9a6/198846862132.jpg/600x600bb.jpg",
       url: "https://www.youtube.com/watch?v=dHpQgXOrfvc&ab_channel=Audiotree"
+    },
+    {
+      id: 8,
+      name: 'Nervosa',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 9,
+      name: 'Apocalyptica',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 10,
+      name: 'Wormsand',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 11,
+      name: 'Agriculture',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 12,
+      name: 'A day to remember',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 13,
+      name: 'The Real McKenzies',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 14,
+      name: 'Vola',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 15,
+      name: 'Last Train',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 16,
+      name: 'Chat Pile',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 17,
+      name: 'Tryglav',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 18,
+      name: 'Poppy',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 19,
+      name: 'Defeater',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 20,
+      name: 'Mental Cruelty',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 21,
+      name: 'Cachemire',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 22,
+      name: 'Windhand',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 23,
+      name: 'Eisbrecher',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 24,
+      name: 'Majestica',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 25,
+      name: 'Soft Play',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 26,
+      name: 'Gutalax',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 27,
+      name: 'Refused',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 28,
+      name: 'Kylesa',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 29,
+      name: 'Trollfest',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 30,
+      name: 'Epica',
+      picture: '',
+      url: ''
+    },
+    {
+      id: 31,
+      name: "Lion's Law",
+      picture: '',
+      url: ''
     }
   ]
 
