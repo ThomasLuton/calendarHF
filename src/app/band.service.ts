@@ -196,6 +196,14 @@ export class BandService {
     }
   ]
 
+  readonly bonusBands: Band[] = [
+    {
+      id: 1,
+      name: "Sun",
+      picture: '',
+      url: ''
+    }
+  ]
   constructor() { }
 
   public getOneBand(id: number): Observable<Band> {
