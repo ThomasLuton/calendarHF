@@ -3,5 +3,6 @@ export interface Band {
     name: string,
     picture: string,
     url: string,
+    hellfestLink: string
     bonus?: Band[]
 }

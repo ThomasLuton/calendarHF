@@ -1,9 +1,10 @@
 <div class="container text-center py-2 w-50">
     @if (isCountDown()) {
-    <p>{{remainingHoures()}}Heures, {{remainingMinutes()}} minutes, {{remainingSeconds()}} secondes restantes</p>
+    <p>Départ pour l'enfer dans {{remainingHoures()}}Heures, {{remainingMinutes()}} minutes et {{remainingSeconds()}}
+        secondes</p>
     <button class="btn btn-danger" (click)="switchButton()">Compteur de dodo</button>
     }@else {
-    <p>{{remainingDays()}} dodo(s) restant(s)</p>
+    <p>Départ pour l'enfer dans {{remainingDays()}} dodo(s)</p>
     <button class="btn btn-danger" (click)="switchButton()">Décompte</button>
     }
 </div>

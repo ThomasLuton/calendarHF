@@ -1,10 +1,17 @@
 <div class="text-center">
-    <h1>{{band?.name}}</h1>
+    <h2>{{band?.name}}</h2>
     <img id="picture" [src]="band?.picture" [alt]="band?.name">
-    <div id="youtubeIcon">
-        <a [href]="band?.url">
-            <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
-        </a>
+    <div class="d-flex">
+        <div id="youtubeIcon">
+            <a [href]="band?.url">
+                <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
+            </a>
+        </div>
+        <div id="hellfestIcon">
+            <a [href]="band?.hellfestLink">
+                <img class="img-fluid" src="hellfestIcon.png" alt="hellfestIcon">
+            </a>
+        </div>
     </div>
     @if(band?.bonus){
     <div class="mt-4">
@@ -16,6 +23,11 @@
             <div id="youtubeIcon">
                 <a [href]="bonus.url">
                     <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
+                </a>
+            </div>
+            <div id="hellfestIcon">
+                <a [href]="band?.hellfestLink">
+                    <img class="img-fluid" src="hellfestIcon.png" alt="hellfestIcon">
                 </a>
             </div>
         </div>
