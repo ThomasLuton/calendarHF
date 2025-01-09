@@ -69,7 +69,16 @@ export class BandService {
       name: 'Apocalyptica',
       picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/6b/e0/2d6be04c-a1c7-5669-6e63-a0779bedb540/4260341644912.png/600x600bb.jpg',
       url: 'https://www.youtube.com/watch?v=yN3lUM-r6bk&ab_channel=Apocalyptica',
-      hellfestLink: 'https://hellfest.fr/artiste/apocalyptica'
+      hellfestLink: 'https://hellfest.fr/artiste/apocalyptica',
+      bonus: [
+        {
+          id: 9,
+          name: 'Apocalyptica',
+          picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/6b/e0/2d6be04c-a1c7-5669-6e63-a0779bedb540/4260341644912.png/600x600bb.jpg',
+          url: 'https://www.youtube.com/watch?v=yN3lUM-r6bk&ab_channel=Apocalyptica',
+          hellfestLink: 'https://hellfest.fr/artiste/apocalyptica'
+        }
+      ]
     },
     {
       id: 10,

@@ -1,5 +1,5 @@
 <div class="text-center">
-    <h2>{{band?.name}}</h2>
+    <h2 class="groupName">{{band?.name}}</h2>
     <img id="picture" [src]="band?.picture" [alt]="band?.name">
     <div class="d-flex">
         <div id="youtubeIcon">
@@ -18,17 +18,19 @@
         <h2 class="text-center">Groupe(s) bonus</h2>
         @for (bonus of band?.bonus; track $index) {
         <div class="mt-4">
-            <h5>{{bonus.name}}</h5>
+            <h5 class="groupName">{{bonus.name}}</h5>
             <img id="picture" [src]="bonus.picture" [alt]="bonus.name">
-            <div id="youtubeIcon">
-                <a [href]="bonus.url">
-                    <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
-                </a>
-            </div>
-            <div id="hellfestIcon">
-                <a [href]="band?.hellfestLink">
-                    <img class="img-fluid" src="hellfestIcon.png" alt="hellfestIcon">
-                </a>
+            <div class="d-flex">
+                <div id="youtubeIcon">
+                    <a [href]="bonus.url">
+                        <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
+                    </a>
+                </div>
+                <div id="hellfestIcon">
+                    <a [href]="band?.hellfestLink">
+                        <img class="img-fluid" src="hellfestIcon.png" alt="hellfestIcon">
+                    </a>
+                </div>
             </div>
         </div>
         }
