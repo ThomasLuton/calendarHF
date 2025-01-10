@@ -14,23 +14,16 @@ h2 {
     font-style: normal;
 }
 
-#youtubeIcon {
+.youtubeIcon {
     width: 100px;
-    height: 30px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-#hellfestIcon {
+.hellfestIcon {
     width: 100px;
-    height: 30px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #picture {
     width: 350px;
-    height: 350px;
     margin-left: auto;
     margin-right: auto;
 }

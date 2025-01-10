@@ -11,7 +11,7 @@ import { PaginationComponent } from './pagination/pagination.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'CalendarHF';
+
   readonly startDate = new Date('June 19, 2025 00:00:00');
   now = signal(Date.now());
   remainingTime = computed(() => (this.startDate.getTime() - this.now()))

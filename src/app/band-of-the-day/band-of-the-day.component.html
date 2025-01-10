@@ -1,17 +1,14 @@
 <div class="text-center">
     <h2 class="groupName">{{band?.name}}</h2>
     <img id="picture" [src]="band?.picture" [alt]="band?.name">
-    <div class="d-flex">
-        <div id="youtubeIcon">
+    <div class="d-flex justify-content-around mt-4">
+        <div class="youtubeIcon">
             <a [href]="band?.url">
                 <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
             </a>
         </div>
-        <div id="hellfestIcon">
-            <a [href]="band?.hellfestLink">
-                <img class="img-fluid" src="hellfestIcon.png" alt="hellfestIcon">
-            </a>
-        </div>
+        <button class="btn btn-outline-danger hellfestIcon" (click)="goTo(band?.hellfestLink)">Plus
+            d'infos</button>
     </div>
     @if(band?.bonus){
     <div class="mt-4">
@@ -20,17 +17,14 @@
         <div class="mt-4">
             <h5 class="groupName">{{bonus.name}}</h5>
             <img id="picture" [src]="bonus.picture" [alt]="bonus.name">
-            <div class="d-flex">
-                <div id="youtubeIcon">
-                    <a [href]="bonus.url">
+            <div class="d-flex justify-content-around my-4">
+                <div class="youtubeIcon">
+                    <a [href]="bonus?.url">
                         <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
                     </a>
                 </div>
-                <div id="hellfestIcon">
-                    <a [href]="band?.hellfestLink">
-                        <img class="img-fluid" src="hellfestIcon.png" alt="hellfestIcon">
-                    </a>
-                </div>
+                <button class="btn btn-outline-danger hellfestIcon" (click)="goTo(bonus?.hellfestLink)">Plus
+                    d'infos</button>
             </div>
         </div>
         }
