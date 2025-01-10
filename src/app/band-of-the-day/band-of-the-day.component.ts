@@ -45,8 +45,12 @@ export class BandOfTheDayComponent implements OnInit {
   }
 
   toggle(): void {
-    if (!this.isOpen())
+    if (!this.isOpen()) {
+      const window = document.getElementById('window');
+      window?.classList.remove('z-1')
+      window?.classList.add('z-0')
       this.isOpen.update(() => true)
+    }
   }
 
   changeBand(): void {
