@@ -1,20 +1,37 @@
-import { Component, effect, inject, input, OnInit } from '@angular/core';
+import { Component, effect, inject, input, OnInit, signal } from '@angular/core';
 import { BandService } from '../band.service';
 import { Band } from '../../band.model';
-import { Router } from '@angular/router';
+import { trigger, transition, state, animate, style, AnimationEvent } from '@angular/animations';
+
 
 @Component({
   selector: 'app-band-of-the-day',
   standalone: true,
   imports: [],
+  animations: [
+    trigger('openClose', [
+      state(
+        'open',
+        style({
+          opacity: 0
+        }),
+      ),
+      state(
+        'closed',
+        style({
+          opacity: 1,
+        })),
+      transition('closed => open', [animate('2s')]),
+    ])
+  ],
   templateUrl: './band-of-the-day.component.html',
   styleUrl: './band-of-the-day.component.css'
 })
 export class BandOfTheDayComponent implements OnInit {
 
+  isOpen = signal(false)
   readonly bandId = input(0)
   private readonly bandService = inject(BandService);
-  private readonly router = inject(Router)
   band: Band | undefined = undefined;
 
   constructor() {
@@ -25,6 +42,11 @@ export class BandOfTheDayComponent implements OnInit {
 
   ngOnInit(): void {
     this.changeBand();
+  }
+
+  toggle(): void {
+    if (!this.isOpen())
+      this.isOpen.update(() => true)
   }
 
   changeBand(): void {

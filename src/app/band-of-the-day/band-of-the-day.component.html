@@ -1,33 +1,39 @@
-<div class="text-center">
-    <h2 class="groupName">{{band?.name}}</h2>
-    <img id="picture" [src]="band?.picture" [alt]="band?.name">
-    <div class="d-flex justify-content-around mt-4">
-        <div class="youtubeIcon">
-            <a [href]="band?.url">
-                <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
-            </a>
-        </div>
-        <button class="btn btn-outline-danger my-2" (click)="goTo(band?.hellfestLink)">Plus
-            d'infos</button>
+<div (click)="toggle()" class="position-relative" style="height: 500px;">
+    <div [@openClose]="isOpen()? 'open': 'closed'" id="window"
+        class="h-100 d-inline-block position-absolute top-50 start-50 translate-middle z-1 bg-dark"
+        style="width: 800px;"><img src="gift.png" alt="gift" class="mx-auto my-5 py-3 d-block">
     </div>
-    @if(band?.bonus){
-    <div class="mt-4">
-        <h2 class="text-center">Groupe(s) bonus</h2>
-        @for (bonus of band?.bonus; track $index) {
-        <div class="mt-4">
-            <h5 class="groupName">{{bonus.name}}</h5>
-            <img id="picture" [src]="bonus.picture" [alt]="bonus.name">
-            <div class="d-flex justify-content-around my-4">
-                <div class="youtubeIcon">
-                    <a [href]="bonus?.url">
-                        <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
-                    </a>
-                </div>
-                <button class="btn btn-outline-danger my-2" (click)="goTo(bonus?.hellfestLink)">Plus
-                    d'infos</button>
+    <div class="text-center position-absolute top-50 start-50 translate-middle">
+        <h2 class=" groupName">{{band?.name}}</h2>
+        <img id="picture" [src]="band?.picture" [alt]="band?.name">
+        <div class="d-flex justify-content-around mt-4">
+            <div class="youtubeIcon">
+                <a [href]="band?.url">
+                    <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
+                </a>
             </div>
+            <button class="btn btn-outline-danger my-2" (click)="goTo(band?.hellfestLink)">Plus
+                d'infos</button>
+        </div>
+        @if(band?.bonus){
+        <div class="mt-4">
+            <h2 class="text-center">Groupe(s) bonus</h2>
+            @for (bonus of band?.bonus; track $index) {
+            <div class="mt-4">
+                <h5 class="groupName">{{bonus.name}}</h5>
+                <img id="picture" [src]="bonus.picture" [alt]="bonus.name">
+                <div class="d-flex justify-content-around my-4">
+                    <div class="youtubeIcon">
+                        <a [href]="bonus?.url">
+                            <img class="img-fluid" src="youtubeIcon.png" alt="youtubeIcon">
+                        </a>
+                    </div>
+                    <button class="btn btn-outline-danger my-2" (click)="goTo(bonus?.hellfestLink)">Plus
+                        d'infos</button>
+                </div>
+            </div>
+            }
         </div>
         }
     </div>
-    }
 </div>
