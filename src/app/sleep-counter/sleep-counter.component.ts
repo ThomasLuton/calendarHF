@@ -11,7 +11,11 @@ export class SleepCounterComponent implements OnInit {
 
   isCountDown = signal(false);
   readonly startDate = new Date('June 19, 2025 00:00:00');
-  now = signal(Date.now());
+  utcNow = signal(Date.now())
+  now = computed(() => {
+    const date = new Date(this.utcNow())
+    return this.utcNow() + date.getTimezoneOffset() * 60000
+  })
   remainingTime = computed(() => (this.startDate.getTime() - this.now()))
   remainingDays = computed(() => Math.floor(this.remainingTime() / 86400000))
   remainingHoures = computed(() => Math.floor(this.remainingTime() / 3600000))
@@ -20,7 +24,7 @@ export class SleepCounterComponent implements OnInit {
 
   ngOnInit() {
     setInterval(() => {
-      this.now.update(() => Date.now())
+      this.utcNow.update(() => Date.now())
     }, 1000)
   }
 
