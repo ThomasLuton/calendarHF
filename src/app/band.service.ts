@@ -130,99 +130,99 @@ export class BandService {
     {
       id: 18,
       name: 'Poppy',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/b3/ff/39b3ff43-df24-345e-a444-71414fb63b23/198704125270_Cover.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=ev_vPbqUlZs&ab_channel=SUMERIAN',
       hellfestLink: 'https://hellfest.fr/artiste/poppy'
     },
     {
       id: 19,
       name: 'Defeater',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/f5/63/af/f563af99-3931-d207-f8ba-dfd3c952a805/0045778762309.png/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=gD-rffbriWI&ab_channel=DefeaterVEVO',
       hellfestLink: 'https://hellfest.fr/artiste/defeater'
     },
     {
       id: 20,
       name: 'Mental Cruelty',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f6/96/57/f696577a-2b4d-3ef0-4c32-621105161298/196589783226.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=WXJwYl6L73w&ab_channel=CenturyMediaRecords',
       hellfestLink: 'https://hellfest.fr/artiste/mental-cruelty'
     },
     {
       id: 21,
       name: 'Cachemire',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/04/1a/e2/041ae286-7f99-2976-10dd-aeaf19901085/cover.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=bLSla3zvv1A&ab_channel=Cachemire-Topic',
       hellfestLink: 'https://hellfest.fr/artiste/cachemire'
     },
     {
       id: 22,
       name: 'Windhand',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b3/80/39/b380396f-b004-bfd7-30f0-427b64e34474/781676399628.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=2JhVTnU8MnI&ab_channel=RelapseRecords',
       hellfestLink: 'https://hellfest.fr/artiste/windhand'
     },
     {
       id: 23,
       name: 'Eisbrecher',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/9b/d7/099bd7db-e698-3538-ff2c-5f83a42947a7/782388139267_Cover.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=yjO1bMHbDpY&ab_channel=EISBRECHERofficial',
       hellfestLink: 'https://hellfest.fr/artiste/eisbrecher'
     },
     {
       id: 24,
       name: 'Majestica',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b2/f1/b4/b2f1b42c-1583-031b-175e-55dbaebc37a9/cover.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=dP08ex8nbKE&ab_channel=NuclearBlastRecords',
       hellfestLink: 'https://hellfest.fr/artiste/majestica'
     },
     {
       id: 25,
       name: 'Soft Play',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a5/14/e1/a514e162-6925-ce5d-5263-6901c3cd21b0/4099964044423.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=nMOgilf4WX4&ab_channel=SOFTPLAY',
       hellfestLink: 'https://hellfest.fr/artiste/soft-play'
     },
     {
       id: 26,
       name: 'Gutalax',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6a/e5/50/6ae550e5-2f3a-d06d-598a-cc7b3a72cf75/artwork.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=O8kGgtF-C4w&ab_channel=GUTALAXgoregrind',
       hellfestLink: 'https://hellfest.fr/artiste/gutalax'
     },
     {
       id: 27,
       name: 'Refused',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/df/59/05/df5905f4-56e6-63a6-d914-ae226ae9e733/0045778007165.png/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=NkAe30aEG5c&ab_channel=EpitaphRecords',
       hellfestLink: 'https://hellfest.fr/artiste/refused'
     },
     {
       id: 28,
       name: 'Kylesa',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e3/f8/d9/e3f8d95d-396a-45ee-68e0-4cd3123c3c6c/886443803091.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=VlbC-hk25Aw&ab_channel=SeasonofMist',
       hellfestLink: 'https://hellfest.fr/artiste/kylesa'
     },
     {
       id: 29,
       name: 'Trollfest',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/6f/ea/4d6feac9-0cf4-c3e4-ecb3-2b03b80af8be/859796973155_cover.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=BmCc-0b6urc&ab_channel=TrollfesTOfficial',
       hellfestLink: 'https://hellfest.fr/artiste/trollfest'
     },
     {
       id: 30,
       name: 'Epica',
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/4f/4e/fe4f4e6d-8437-877b-0682-17e433abbf2f/cover.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=MOD50EoFqdg&ab_channel=EPICA',
       hellfestLink: 'https://hellfest.fr/artiste/epica'
     },
     {
       id: 31,
       name: "Lion's Law",
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/da/46/1a/da461ace-d819-72d2-97d9-725ae0342cea/15669.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=5F2ypnLQUrU&ab_channel=Lion%27sLaw',
       hellfestLink: 'https://hellfest.fr/artiste/lion-s-law'
     }
   ]
