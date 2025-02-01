@@ -224,6 +224,97 @@ export class BandService {
       picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/da/46/1a/da461ace-d819-72d2-97d9-725ae0342cea/15669.jpg/600x600bb.jpg',
       url: 'https://www.youtube.com/watch?v=5F2ypnLQUrU&ab_channel=Lion%27sLaw',
       hellfestLink: 'https://hellfest.fr/artiste/lion-s-law'
+    },
+    {
+      id: 32,
+      name: "Furies",
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2d/e6/37/2de6379c-b6b2-733d-0d54-a1bb165896c5/134341.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=UmHDuLaY4zs&ab_channel=Furies',
+      hellfestLink: 'https://hellfest.fr/artiste/furies'
+    },
+    {
+      id: 33,
+      name: "Myles Kennedy",
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/11/8f/af118fe2-b753-daf1-9ad4-f818106475f9/810157920119.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=7_LXR96kh9s&ab_channel=MylesKennedy',
+      hellfestLink: 'https://hellfest.fr/artiste/myles-kennedy'
+    },
+    {
+      id: 34,
+      name: "Stoned Jesus",
+      picture: '',
+      url: '',
+      hellfestLink: 'https://hellfest.fr/artiste/stoned-jesus'
+    },
+    {
+      id: 35,
+      name: "Luc Arbogast",
+      picture: '',
+      url: '',
+      hellfestLink: 'https://hellfest.fr/artiste/luc-arbogast'
+    },
+    {
+      id: 36,
+      name: "Kittie",
+      picture: '',
+      url: '',
+      hellfestLink: 'https://hellfest.fr/artiste/kittie'
+    },
+    {
+      id: 37,
+      name: "Teen Mortgage",
+      picture: '',
+      url: '',
+      hellfestLink: 'https://hellfest.fr/artiste/teen-mortgage'
+    },
+    {
+      id: 38,
+      name: "Jinjer",
+      picture: '',
+      url: '',
+      hellfestLink: 'https://hellfest.fr/artiste/jinjer'
+    },
+    {
+      id: 39,
+      name: "Blackgold",
+      picture: '',
+      url: '',
+      hellfestLink: 'https://hellfest.fr/artiste/blackgold'
+    },
+    {
+      id: 40,
+      name: "Crows",
+      picture: '',
+      url: '',
+      hellfestLink: 'https://hellfest.fr/artiste/crows'
+    },
+    {
+      id: 41,
+      name: "Gravekvlt",
+      picture: '',
+      url: '',
+      hellfestLink: 'https://hellfest.fr/artiste/gravekvlt'
+    },
+    {
+      id: 42,
+      name: "Kim Dracula",
+      picture: '',
+      url: '',
+      hellfestLink: 'https://hellfest.fr/artiste/kim-dracula'
+    },
+    {
+      id: 43,
+      name: "Beton armé",
+      picture: '',
+      url: '',
+      hellfestLink: 'https://hellfest.fr/artiste/beton-arme'
+    },
+    {
+      id: 44,
+      name: "Persefone",
+      picture: '',
+      url: '',
+      hellfestLink: 'https://hellfest.fr/artiste/persefone'
     }
   ]
 
