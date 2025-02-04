@@ -242,78 +242,78 @@ export class BandService {
     {
       id: 34,
       name: "Stoned Jesus",
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c4/92/0c/c4920c5b-c4a3-6339-53a4-e031838fcf1a/822603011197.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=iW1jxJ6ISks&ab_channel=xnerob',
       hellfestLink: 'https://hellfest.fr/artiste/stoned-jesus'
     },
     {
       id: 35,
       name: "Luc Arbogast",
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/80/3d/da/803ddacb-ee21-a871-ea70-64f178c079b7/00602537968879.rgb.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=G-baoojvu1o&ab_channel=LucArbogastMusicVEVO',
       hellfestLink: 'https://hellfest.fr/artiste/luc-arbogast'
     },
     {
       id: 36,
       name: "Kittie",
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/90/72/27/90722784-8c76-ba00-114f-7e51ea0b9848/s05.ciunjvqi.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=yev3JqH6TpY&ab_channel=Kittie',
       hellfestLink: 'https://hellfest.fr/artiste/kittie'
     },
     {
       id: 37,
       name: "Teen Mortgage",
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/cd/7e/25cd7e42-6e5b-187f-88ab-0cdd3ddc209b/198622425186_cover.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=jRc1zid_F3g&ab_channel=TeenMortgage',
       hellfestLink: 'https://hellfest.fr/artiste/teen-mortgage'
     },
     {
       id: 38,
       name: "Jinjer",
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bd/03/4c/bd034c9c-2d4e-d0cb-16ce-75fdc9f859bf/840588151493.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=hEt3MajR0cU&ab_channel=NapalmRecords',
       hellfestLink: 'https://hellfest.fr/artiste/jinjer'
     },
     {
       id: 39,
       name: "Blackgold",
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/30/0d/47/300d4777-958d-b308-876c-f5504d640ae3/198704221491_Cover.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=owuZhimUroI&ab_channel=BLACKGOLD-Topic',
       hellfestLink: 'https://hellfest.fr/artiste/blackgold'
     },
     {
       id: 40,
       name: "Crows",
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/67/db/df/67dbdf92-780c-fa05-4a8b-e8e4dd234638/5060978394209.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=nba1Mxj7g38&ab_channel=CROWS',
       hellfestLink: 'https://hellfest.fr/artiste/crows'
     },
     {
       id: 41,
       name: "Gravekvlt",
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/dd/6e/34/dd6e3434-f5f6-0dbe-ed8e-e394385c7275/8445888949768.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=Pq2j_2R1Rmo&ab_channel=FrozenRecords',
       hellfestLink: 'https://hellfest.fr/artiste/gravekvlt'
     },
     {
       id: 42,
       name: "Kim Dracula",
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/eb/ea/40/ebea401e-bb25-aa19-7252-936a34d385f3/196871255318.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=QZlvQC3ZUN8&ab_channel=KimDracula-Topic',
       hellfestLink: 'https://hellfest.fr/artiste/kim-dracula'
     },
     {
       id: 43,
       name: "Beton armé",
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dc/56/93/dc569330-aafc-bc31-2457-81e9d3f25b4f/7321170652602.png/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=nIdSPq5G1QU&ab_channel=LaVidaEsUnMusDiscos',
       hellfestLink: 'https://hellfest.fr/artiste/beton-arme'
     },
     {
       id: 44,
       name: "Persefone",
-      picture: '',
-      url: '',
+      picture: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9b/b1/8b/9bb18b0a-74aa-6a44-d039-06d25420bea8/887845584854_cover.jpg/600x600bb.jpg',
+      url: 'https://www.youtube.com/watch?v=ENvndbPK48A&list=PLlTSqF66IqjUKd9QE9iYhvDvhm7Fp2iPu&ab_channel=TrueMetalExtreme',
       hellfestLink: 'https://hellfest.fr/artiste/persefone'
     }
   ]
